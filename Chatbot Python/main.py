@@ -33,7 +33,7 @@ st.markdown(
 )
 
 #chave da API OpenAI
-modelo_ia = OpenAI(api_key="")
+modelo_ia = OpenAI(api_key="")#chave api key foi removida por questões de segurança e boas práticas 
 
 st.write("# Chatbot IA")#markdown
 
@@ -74,4 +74,5 @@ if texto_usario:
 
     
                              
+
 
